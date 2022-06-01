@@ -12,9 +12,6 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        /* .container{
-            color: white;
-        } */
         footer{
             margin: 0;
             text-align: center;
