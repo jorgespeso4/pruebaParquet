@@ -110,7 +110,7 @@
             <td>{{$maderas->categoria}}</td>
             <td>{{$maderas->precio}}€</td>
             <td>{{$maderas->suministrador}}</td>
-            <td>{{$maderas->stock}}</td>
+            <td>{{$maderas->stock==1?'Disponible':'Agotado'}}</td>
             
             
             
