@@ -20,9 +20,11 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">Inicio</a>
                 <ul class="navbar-nav">
+                    @if (Auth::check())
                     <li class="nav-item active">
                         <a class="nav-link" href="{{ url('/maderas') }}">Maderas</a>
                     </li>
+                    @endif
                     <li class="nav-item active">
                         <a class="nav-link" href="{{ url('/contacto') }}">Contacto</a>
                     </li>
