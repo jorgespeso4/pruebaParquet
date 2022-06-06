@@ -46,7 +46,7 @@
             color: white;
         }  
         .shadow{
-            text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+            text-shadow: 1px 1px 1px rgba(196, 195, 225, 0.7);
         }
     </style>
 </head>
@@ -117,11 +117,11 @@
     <div class="container-fluid">
         <section class="shadow">
             <h2>Bienvenidos a Parquets L Castaño</h2>
-            <article>SOMOS UNA EMPRESA DE SOLADOS Y PAVIMENTOS DE MADERA, CON MAS DE 25 AÑOS DE EXPERIENCIA EN EL SECTOR DE LOS SUELOS DE MADERA.</article>
+            <article>¿Vives en Oviedo y buscas un centro de almacenaje, suministro e instalación de todo tipo de pavimentos de madera y sintéticos, tanto para exterior como interior?.</article>
             <p>
-            <article>NUESTROS SERVICIOS SON VARIOS DESDE RESTAURADO, ACUCHILLADO Y BARNIZADO  DE SUELOS DE MADERA HASTA SUMINISTRO Y COLOCACION DE SUELOS  ( PARQUETS PEGADOS , TARIMAS FLOTANTES DE MADERA PEGADOS O SOBRE RASTREL Y SUELOS LAMINADOS, VINILICOS , ECOLOGICOS ).</article>
+            <article>Podemos solicitar un presupuesto a una empresa especializada para tarima exterior sintetica, suelo de chapa fina o parquet pegado…</article>
             <p>
-            <article>TAMBIEN DISPONEMOS DE UNA GRAN INSTALACION PARA VER LAS DISTINTAS VARIEDADES DE PRODUCTOS RELACIONADAS CON EL CUIDADO Y RENOVACION DE SUELO.</article>
+            <article>La tarima flotante y el parquet son materiales fáciles de instalar en una vivienda y además tienen muchas ventajas: se facilita la limpieza, posee un nivel de absorción y aislamiento de ruidos superior al resto de tipos de suelos o perfecto para reformas y rehabilitaciones… Llama ahora a Parquet L  Castaño s.l. y solicitas un servicio a precio sin competencia y de primera calidad en productos de tarimas.</article>
         </section>
     </div>
     <hr>

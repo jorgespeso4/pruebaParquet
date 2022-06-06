@@ -11,10 +11,15 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+        h1{
+            text-align: center; 
+            text-shadow: 1px 1px 1px rgba(196, 195, 225, 0.7);
+            color: #eee;
+        }
         .calendario{
-            text-align:center;
-            width: 300px;
+            width: 400px;
             background-color: white;
+            margin-left: 34%;
         }
         ol{
             list-style: none;
@@ -35,6 +40,20 @@
         }
         .ocupado{
             color: red;
+        }
+        .carrousel{
+            width: 40%;
+            height: 40%;
+            margin-left: 29%;
+        }
+        h2{
+            text-align: center; 
+            text-shadow: 1px 1px 1px rgba(196, 195, 225, 0.7);
+            color: #eee;
+        }
+        .nombre{
+            text-align: center;
+            color: black;
         }
     </style>
 </head>
@@ -84,10 +103,13 @@
             @yield('content')
         </main>
     </div>
-
+    
+    <h1>Mi cuenta</h1>
+    <hr>
     <div class="container">
+        <h2>Fechas disponibles</h2>
         <div class="calendario">
-            <h1>Junio 2021</h1>
+            <h2 class="nombre">Junio 2021</h1>
             <ol>
                 <li class="day-name">Lun</li>
                 <li class="day-name">Mar</li>
@@ -127,6 +149,33 @@
                 <li>29</li>
                 <li>30</li>
             </ol>
+        </div>
+        <hr>
+        <div class="carrousel">
+            <h2>Ultimos trabajos</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2016/07/30/20/52/vintage-1557993__340.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380__480.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/09/16/28/wood-1130494__340.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <br>
+              <br>
         </div>
     </div>
 </body>

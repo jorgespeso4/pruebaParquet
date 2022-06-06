@@ -23,7 +23,7 @@
             color: white;
         }  
         .shadow{
-            text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7);
+            text-shadow: 1px 1px 1px rgba(196, 195, 225, 0.7);
         }  
     </style>
     
