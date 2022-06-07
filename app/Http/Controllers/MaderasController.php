@@ -97,6 +97,8 @@ class MaderasController extends Controller
     public function update(Request $request, $id)
     {
         //
+        echo ('hola');
+        print_r('hola');
         $datosMaderas = request()->except(['_token','_method']);
 
         
